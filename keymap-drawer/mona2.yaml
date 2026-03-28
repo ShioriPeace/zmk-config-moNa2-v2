@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - BT CLR
+  - {t: BT, h: '0'}
   - F3
   - N
   - M
@@ -70,7 +70,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '1'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
