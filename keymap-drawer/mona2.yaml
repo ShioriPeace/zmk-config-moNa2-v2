@@ -1,48 +1,7 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  default:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - BACKSPACE
-  - A
-  - S
-  - D
-  - F
-  - G
-  - ESC
-  - H
-  - J
-  - K
-  - L
-  - P
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - {t: '2', h: toggle}
-  - F3
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT COMMAND
-  - SPACE
-  - '&mkp LCLK'
-  - ENTER
-  - '&mkp RCLK'
-  - '1'
+  default: [Q, W, E, R, T, Y, U, I, O, BACKSPACE, A, S, D, F, G, ESC, H, J, K, L, P, Z, X, C, V, B, F3, CAPSLOCK, N, M, ',', ., /, LEFT, DOWN, RIGHT, LEFT COMMAND,
+    SPACE, '&mkp LCLK', ENTER, '&mkp RCLK', '1']
   '1':
   - '1'
   - '2'
