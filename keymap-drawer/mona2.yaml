@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - {t: BT, h: '0'}
+  - {t: '2', h: toggle}
   - F3
   - N
   - M
@@ -39,7 +39,7 @@ layers:
   - RIGHT
   - LEFT COMMAND
   - SPACE
-  - {t: '&to_layer_0 LANG2', h: '3'}
+  - '&mkp MB1'
   - ENTER
   - {t: SPACE, h: '1'}
   - '1'
@@ -59,7 +59,7 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - BT CLR ALL
+  - {t: BT, h: '1'}
   - {t: ▽, type: trans}
   - (
   - )
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
