@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - DELETE
+  - BACKSPACE
   - A
   - S
   - D
@@ -39,9 +39,9 @@ layers:
   - RIGHT
   - LEFT COMMAND
   - SPACE
-  - '&mkp MB1'
+  - '&mkp LCLK'
   - ENTER
-  - {t: SPACE, h: '1'}
+  - '&mkp RCLK'
   - '1'
   '1':
   - '1'
@@ -84,8 +84,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   '2':
   - '!'
   - '@'
