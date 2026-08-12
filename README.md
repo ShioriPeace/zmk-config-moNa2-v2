@@ -1,6 +1,20 @@
 # zmk-config-moNa2
+https://nickcoutsos.github.io/keymap-editor/
+<img width="1499" height="745" alt="image" src="https://github.com/user-attachments/assets/de2c5922-0235-4b7f-a707-1d546c497a50" />
+<img width="1499" height="745" alt="image" src="https://github.com/user-attachments/assets/3cfc6f3d-c00a-449c-bf7e-14c44fbe5fbc" />
 
-<img src="keymap-drawer/mona2_01.svg">
+
+
+
+<details>
+  <summery>
+    default
+  </summery>
+  <img src="keymap-drawer/mona2_01.svg">
+</details>
+
+
+
 
 # COROPITを使用するへ
 
