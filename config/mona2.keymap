@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q     &kp W     &kp E      &kp R             &kp T                                 &kp Y      &kp U  &kp I      &kp O    &kp BACKSPACE
-&kp A     &kp S     &kp D      &kp F             &kp G                   &kp ESC       &kp H      &kp J  &kp K      &kp L    &kp P
-&kp Z     &kp X     &kp C      &kp V             &kp B      &kp F3       &kp CAPSLOCK  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_COMMAND  &kp SPACE  &mkp LCLK    &kp ENTER     &mkp RCLK                             &mo 1
+&kp Q     &kp W     &kp E      &kp R             &kp T                                 &kp Y  &kp U  &kp I      &kp O    &kp BACKSPACE
+&kp A     &kp S     &kp D      &kp F             &kp G                   &kp ESC       &kp H  &kp J  &kp K      &kp L    &kp P
+&kp Z     &kp X     &kp C      &kp V             &kp B      &kp F3       &kp CAPSLOCK  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT  &kp DOWN  &kp RIGHT  &kp LEFT_COMMAND  &kp SPACE  &mkp LCLK    &kp ENTER     &kp O                             &mo 1
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -90,7 +90,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8           &kp NUMBER_9  &kp NUMBER_0
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans                        &bt BT_SEL 1  &trans        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp BACKSLASH
 &trans        &trans        &trans        &trans        &trans        &bt BT_SEL 0    &bt BT_SEL 1  &trans        &trans                &trans                 &trans        &kp PIPE
-&trans        &trans        &trans        &trans        &trans        &trans          &trans        &trans                                                                   &trans
+&trans        &trans        &trans        &trans        &trans        &trans          &mkp RCLK     &mkp RCLK                                                                &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
